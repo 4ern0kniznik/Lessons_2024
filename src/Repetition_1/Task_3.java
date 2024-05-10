@@ -1,4 +1,4 @@
-package Repetition;
+package Repetition_1;
 
 /**
  * Вывести на экран слово “​JAVA”​, в столбик, чтобы оно повторилось 10 раз,

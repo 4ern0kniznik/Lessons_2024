@@ -1,6 +1,4 @@
-package Repetition;
-
-import java.sql.SQLOutput;
+package Repetition_1;
 
 /**
  * Повторить задание 1, но используя цикл f​or​.

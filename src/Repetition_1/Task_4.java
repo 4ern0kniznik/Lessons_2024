@@ -1,4 +1,4 @@
-package Repetition;
+package Repetition_1;
 
 /**
  * Объявите переменную типа ​int​, имя переменной - ​year​. Присвойте этой
