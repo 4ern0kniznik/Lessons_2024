@@ -1,5 +1,6 @@
 package Repetition_4;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -15,8 +16,10 @@ import java.util.Scanner;
  */
 public class Task_1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Привет, введи размер массива: ");
-
+/**        Scanner scanner = new Scanner(System.in);
+        double a = 20 + Math.random() *40;
+       System.out.println(a); */
+        int[] array = {1, 4, 6, 3, 8};
+        System.out.println(Arrays.toString(array));
     }
 }
