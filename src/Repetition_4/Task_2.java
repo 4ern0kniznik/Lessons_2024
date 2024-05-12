@@ -15,17 +15,46 @@ import java.util.Scanner;
  */
 public class Task_2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите число: ");
-        int arrayLength = scanner.nextInt();
+        int [] array = new int[100];
 
-        Random random = new Random();
-        int[] array = new int[arrayLength];
         // Заполнение массива случайными числами
-        for (int i = 0; i < arrayLength; i++)
+        Random random = new Random();
+
+        for (int i = 0; i < array.length; i++)
             array[i] = random.nextInt(10000);
 
-        System.out.print("Массив: ");
-        System.out.println(Arrays.toString(array));
+        // Выводим наибольший элемент массива
+        int max = 0;
+        for(int element : array){
+            if(element > max)
+                max = element;
+        }
+        System.out.println("Наибольший элемент массива: " + max);
+
+        // Выводим наименьший элемент массива
+        int min = 10000;
+        for(int element : array){
+            if(element < min)
+                min = element;
+        }
+        System.out.println("Наименьший элемент массива: " + min);
+
+        // Выводим количество элементов массива, оканчивающихся на 0
+        int counter = 0;
+        for(int element : array){
+            if(element % 10 == 0)
+                counter++;
+        }
+        System.out.println("Количество элементов массива, оканчивающихся на 0: " + counter);
+
+        // Выводим сумму элементов массива, оканчивающихся на 0
+        int sum = 0;
+        for(int element : array){
+            if(element % 10 == 0)
+                sum += element;
+        }
+        System.out.println("Сумма элементов массива, оканчивающихся на 0: " + sum);
+
+
     }
 }
