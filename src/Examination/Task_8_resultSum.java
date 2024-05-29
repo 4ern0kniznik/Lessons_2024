@@ -18,6 +18,5 @@ public class Task_8_resultSum {
     }
     public static int result(int sum1, int sum2) {
         return sum1 + sum2;
-
     }
 }
