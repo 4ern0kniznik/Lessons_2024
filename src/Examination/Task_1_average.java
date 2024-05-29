@@ -10,8 +10,8 @@ public class Task_1_average {
     public static void main(String[] args) {
         System.out.println("Среднее арифметическое: ");
         int[] a = {1,2,3,4};
-        int[] b = {5,6,7,8};
-        System.out.println(average(a) + " " + average(b));
+    //    int[] b = {5,6,7,8};
+        System.out.println(average(a) /*+ " " + average(b)*/);
     }
     public static double average(int[] array){
         double sum = 0;
