@@ -23,7 +23,6 @@ public class Task_9_resultSymbol {
         for (String word : words) {
             if (word.contains(symbol)) {
                 System.out.println(word);
-                break;
             }
         }
     }
