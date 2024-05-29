@@ -6,8 +6,8 @@ package Examination;
  * or
  * - public static double average (int [] array)
  */
-public class Task_1 {
-    public static void main(String[] chars) {
+public class Task_1_average {
+    public static void main(String[] args) {
         System.out.println("Среднее арифметическое: ");
         int[] a = {1,2,3,4};
         int[] b = {5,6,7,8};
